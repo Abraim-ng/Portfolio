@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: #080808;
+}
+.header {
+    background-color: #1B1B1B;
+    height: 70px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #000000;
+    border-radius: 0px 0px 8px 8px;
+}
+.services {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 70px;
+    align-items: center;
+}
+.services a {
+    text-decoration: none;
+    color: #9C9C9C;
+    font-family: 'IBM Plex Mono', monospace;
+    cursor: pointer;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 107.54px;
+    color: #9C9C9C;
+    cursor: pointer;
+}
