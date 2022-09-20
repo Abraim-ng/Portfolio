@@ -28,11 +28,66 @@ body {
     font-family: 'IBM Plex Mono', monospace;
     cursor: pointer;
 }
-.icons {
+.icons{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 107.54px;
-    color: #9C9C9C;
     cursor: pointer;
+}
+.icons a i {
+    color: #9C9C9C;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 180px;
+}
+.information button{
+    margin-top: 60px;
+    margin-right: 230.11px;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 21px 79.89px 21px 64px;
+    background-color: #62BA1B;
+    cursor: pointer;
+}
+.information button i{
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
+.information h1{
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.landing-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.information p{
+    font-family: 'IBM Plex Mono';
+    color: #9C9C9C;
+    width: 492px;
+    height: 72px;
+    letter-spacing: 0.01em;
+    margin-top: 10px;
+}
+.my-image img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-right: 180px;
+    margin-bottom: 200px;
 }
